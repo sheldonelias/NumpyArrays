@@ -7,16 +7,19 @@ def arr_3d():
     A = np.array([[1, 2, 3], [2, 1, 3], [3, 2, 1]])
     print('A: ')
     print(A)
-    print()
-    print('A[0]:')
-    print(A[0])
-    print()
-    print('A[1][2]:')
-    print(A[1][2])
-    A[0][2] = -2
-    print()
+    # print()
+    # print('A[0]:')
+    # print(A[0])
+    # print()
+    # print('A[1][2]:')
+    # print(A[1][2])
+    # A[0][2] = -2
+    # print()
     print('A[0][2]:')
-    print(A[0][2])
+    # print(A[0][2])
+    # print(A)
+    A = A + 1
+    print(A)
 
     pass
 
@@ -49,7 +52,7 @@ def arrayrange_V_range():
 
     #with list comprehension
     # similar result is comma separated list
-    print([x for x in range(1, 7, 2)])
+    print(   [x for x in range(1, 7, 2)]    )
     list = [x for x in range(1, 7, 2)]
     print(list)
 
@@ -59,6 +62,6 @@ def arrayrange_V_range():
 
 
 def basic_3d():
-    # arr_3d()
-    arrayrange_V_range()
+    arr_3d()
+    # arrayrange_V_range()
     pass

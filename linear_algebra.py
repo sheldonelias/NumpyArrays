@@ -62,8 +62,8 @@ def matrix_division():
     pass
 
 def linear_algebra():
-    matrix_addition()
-    matrix_subtraction()
+    # matrix_addition()
+    # matrix_subtraction()
     matrix_multiplication()
-    matrix_division()
+    # matrix_division()
     pass
